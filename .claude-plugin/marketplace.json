@@ -1,18 +1,15 @@
 {
   "name": "claude-box",
   "description": "Custom Claude Code tools: plan workflow system, Git helpers, and productivity commands",
-  "version": "1.0.0",
   "owner": {
-    "name": "jmagar",
-    "email": "jmagar@gmail.com"
+    "name": "jmagar"
   },
   "plugins": [
     {
       "name": "claude-box",
-      "source": "./plugins/claude-box",
+      "source": "./",
       "description": "Plan workflow system (write/validate/execute), Git helpers, and productivity commands",
-      "version": "1.0.0",
-      "strict": true
+      "version": "1.0.0"
     }
   ]
 }
