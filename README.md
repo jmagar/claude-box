@@ -4,8 +4,19 @@ A Claude Code plugin marketplace containing custom tools for plan-driven develop
 
 ## Installation
 
+Inside Claude Code, run:
+
 ```bash
-claude plugins:add jmagar/claude-box
+# Add the marketplace
+/plugin marketplace add jmagar/claude-box
+
+# Install the plugin
+/plugin install claude-box@claude-box
+```
+
+Or browse interactively:
+```bash
+/plugin
 ```
 
 ## What's Included
